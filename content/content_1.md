@@ -1,4 +1,6 @@
-# Content 2
+# Content\_1.md
+
+#### What's not working in nuxt-studio:
 
 - / prose code
 - / prose H1

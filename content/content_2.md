@@ -1,4 +1,6 @@
-# Using lg\:prose-xl
+# Content\_2.md
+
+### Using lg\:prose-xl
 
 - NuxtJS
 - VueJS
