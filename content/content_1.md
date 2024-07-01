@@ -1,4 +1,4 @@
-### What's not working on nuxt-studio editor
+# Content 2
 
 - / prose code
 - / prose H1
