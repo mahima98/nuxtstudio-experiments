@@ -1,4 +1,4 @@
-# Without using prose code
+# Using lg\:prose-xl
 
 - NuxtJS
 - VueJS
