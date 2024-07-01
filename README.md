@@ -1,21 +1,22 @@
-# My Website
+# nuxtstudio-experiments
 
-My website made by [Content Wind](https://content-wind.nuxt.space) theme.
+Just experimenting how nuxt-studio editor + deployment with nuxt-content works!
+
+# Live preview ✨
+
+- https://twinscodemhm-nuxtstudio-experiments.nuxt.space/
 
 ## Setup
 
 ```bash
-npm install
+pnpm install
+
+pnpm run dev
 ```
 
-## Development
+## Testing Content Files
 
-```bash
-npm run dev
-```
+- content_1.md
+- content_2.md
 
-Then open [http://localhost:3000](http://localhost:3000) to see your app.
-
-## Deployment
-
-Learn more how to deploy on [Nuxt docs](https://nuxt.com/docs/getting-started/deployment).
+## Using TailwindCSS 'prose' for <ContentDoc />
