@@ -5,6 +5,9 @@ settings:
   excludeLinksFromLockfile: false
 
 devDependencies:
+  '@nuxt/content':
+    specifier: ^2.13.0
+    version: 2.13.0(nuxt@3.12.2)(vue@3.4.31)
   '@nuxt/image':
     specifier: ^1.7.0
     version: 1.7.0

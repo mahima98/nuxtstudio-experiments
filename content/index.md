@@ -7,6 +7,10 @@ navigation:
 
 A lightweight Nuxt theme to build a Markdown driven website, based on [Nuxt Content](https://content.nuxt.com), [TailwindCSS](https://tailwindcss.com) and [Iconify](https://iconify.design) ✨
 
+::Container
+Content of the alert
+::
+
 ## Features
 
 - Write pages in Markdown
@@ -23,12 +27,14 @@ A lightweight Nuxt theme to build a Markdown driven website, based on [Nuxt Cont
 
 ## Setup
 
-::button-link
----
+## ::button-link
+
 external: true
 href: https://stackblitz.com/github/Atinux/content-wind/tree/main/.demo?file=content%2F1.index.md
 icon: simple-icons:stackblitz
+
 ---
+
 Play online on Stackblitz
 ::
 
@@ -58,9 +64,9 @@ You can overwrite meta tags by using front-matter:
 
 ```md [content/index.md]
 ---
-title: 'Custom title'
-description: 'Custom meta description'
-image: 'Custom image injected as `og:image`'
+title: "Custom title"
+description: "Custom meta description"
+image: "Custom image injected as `og:image`"
 ---
 
 # My title
@@ -74,13 +80,13 @@ This is done thanks to Nuxt Content's [document-driven mode](https://content.nux
 
 The navigation is generated from your pages, you can take a look at the [`<AppNavbar>`](https://github.com/Atinux/content-wind/blob/main/components/AppNavbar.vue) component to see how it works.
 
-It uses the [Navigation](https://content.nuxt.com/usage/navigation)  from Nuxt Content to fetch the navigation object.
+It uses the [Navigation](https://content.nuxt.com/usage/navigation) from Nuxt Content to fetch the navigation object.
 
 To customize the title displayed in the navigation, you can set the `navigation.title` property in the front-matter of your pages:
 
 ```md
 ---
-navigation.title: 'Home'
+navigation.title: "Home"
 ---
 
 # Welcome to my site
@@ -94,12 +100,12 @@ You can configure Content Wind global configuration in the `app.config.ts` file:
 
 ```ts [signature]
 interface AppConfigInput {
-  cover?: string, // default: '/cover.jpg'
+  cover?: string; // default: '/cover.jpg'
   socials?: {
-    twitter?: string
-    github?: string
-    mastodon?: string
-  }
+    twitter?: string;
+    github?: string;
+    mastodon?: string;
+  };
 }
 ```
 
@@ -146,21 +152,21 @@ export default () => 'Hello Content Wind'
 Will result in:
 
 ```ts
-export default () => 'Hello Content Wind'
+export default () => "Hello Content Wind";
 ```
 
 Updating the theme is as simple as editing your `nuxt.config`:
 
 ```ts
-import { defineNuxtConfig } from 'nuxt'
+import { defineNuxtConfig } from "nuxt";
 
 export default defineNuxtConfig({
   content: {
     highlight: {
-      theme: 'one-dark-pro',
-    }
-  }
-})
+      theme: "one-dark-pro",
+    },
+  },
+});
 ```
 
 Learn more in the [Content Code Highlight section](https://content.nuxt.com/get-started/configuration#highlight).
