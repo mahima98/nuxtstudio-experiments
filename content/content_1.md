@@ -1,5 +1,6 @@
-::prose-code-inline
-# Using prose code inline
+### What's not working on nuxt-studio editor
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean quis magna non purus faucibus porta eu non urna. Donec porttitor tincidunt mauris nec commodo. Nulla mauris dolor, condimentum eget metus ut, mollis scelerisque dolor. Donec sem purus, porttitor nec ligula imperdiet, dapibus tempus nibh. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Duis elementum, ligula quis vulputate pellentesque, augue magna euismod eros
-::
+- / prose code
+- / prose H1
+- / prose code inline works however not H1 inside it. **Bold** yes.
+- Right now am using tailwindcss 'prose' for this contentDoc
