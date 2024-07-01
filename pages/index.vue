@@ -10,7 +10,7 @@
         </div>
 
         <div class="bg-teal-100 w-full p-8 rounded-lg prose">
-            <ContentDoc path="content_1" />
+            <ContentDoc path="content_2" />
         </div>
     </div>
 
